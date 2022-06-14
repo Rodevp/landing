@@ -13,6 +13,7 @@
     align-items: center;
 }
 
+/*header*/
 .header {
     position: absolute;
     top: 0;
@@ -48,3 +49,51 @@ header ul > li > a:hover {
     color: #2d88ff;
 }
 
+/*promotional section*/
+.contentBx {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text_content {
+    max-width: 800px;
+}
+
+.title {
+    font-size: 6rem;
+    color: #3b5998;
+}
+
+.text_content p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8rem;
+}
+
+.text_content h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.btn_play_store {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    margin: 5px 20px 5px 0;
+    border-radius: 5px;
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.btn_play_store:hover {
+    background-color: #2d88ff;
+}
+
+.btn_play_store ion-icon {
+    margin-right: 10px;
+    font-size: 1.4rem;
+}
