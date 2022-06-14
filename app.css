@@ -54,6 +54,7 @@ header ul > li > a:hover {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .text_content {
@@ -96,4 +97,39 @@ header ul > li > a:hover {
 .btn_play_store ion-icon {
     margin-right: 10px;
     font-size: 1.4rem;
+}
+
+/*images*/
+.imgBx img{
+    margin-left: 50px;
+    margin-right: 100px;
+    max-width: 260px;
+    display: none;
+}
+
+.imgBx img.active {
+    display: block;
+}
+
+.dots {
+    position: absolute;
+    top: 40%;
+    transform: translateX(-50%);
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dot {
+    position: relative;
+    width: 10px;
+    height: 30px;
+    background-color: rgba(255, 2555, 2555, 0.25);
+    display: inline-flex;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.dots span.active {
+    background-color: #ffffff;
 }
