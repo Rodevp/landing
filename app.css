@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .main {
@@ -64,6 +67,7 @@ header ul > li > a:hover {
 .title {
     font-size: 6rem;
     color: #3b5998;
+    margin-bottom: 1.5rem;
 }
 
 .text_content p {
