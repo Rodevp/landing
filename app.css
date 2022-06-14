@@ -133,3 +133,25 @@ header ul > li > a:hover {
 .dots span.active {
     background-color: #ffffff;
 }
+
+/*footer*/
+.networks {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+
+.networks li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.networks li > a {
+    font-size: 2rem;
+    color: #3b5998;
+}
+
+
+.networks li > a:hover {
+    color: #2d88ff;
+}
