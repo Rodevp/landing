@@ -22,3 +22,4 @@ for (let j = 0; j < dots.length; j++) {
         setActiveSlide(j)
     })
 }
+
